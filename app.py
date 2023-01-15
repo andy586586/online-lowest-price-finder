@@ -64,7 +64,7 @@ def websearchfunc(sold_good): #function to webscrape and pass the final_result o
  
 
     first10OutString = map(str, out[:10])
-    top_10="<br><br><br>".join(first10OutString)
+    top_10="<br><br> ".join(first10OutString)
 
 
     return top_10
