@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,3 +23,36 @@
         }
     </style>
 </head>
+<script>
+function myFunction() {
+var text1= $('#text1').val();
+  $.ajax({
+              url: "/join",
+              type: "POST",
+              data: {text1:text1}
+          }).done(function(response) {
+            var html= "<br><br><br><p> <b> Search result: <br> (Results from lowest to highest price below) <b><p>";
+            response =response.result;
+                 $.each(response,function(key,val){
+                 console.log(val);
+                    html+="<p>"+val+"<p>"
+                });
+                html +="<br>";
+                $(".show-data").append(html);
+            });
+};
+  </script>
+<body>
+    
+        <h1 style="padding-top: 3%;">Lowest-price finder for electronics:</h1><br><br>
+        <br>
+        <div class="mainclass">
+            Which item would you like to search for? Please enter it here: <br><br><input type="text" id="text1" name="text1">
+            <button id="clicked" onclick="myFunction()">Submit</button> <br>
+            <br>
+            (This process might take a few seconds... Thank you for your patience) 
+        </div>
+    <div class="show-data" style="text-align: left; float: left; padding-left: 3%; padding-right: 3%;">
+    </div>
+</body>
+</html>
