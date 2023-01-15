@@ -11,7 +11,7 @@
               text-align: center;  
               float: center;
               font-family: Arial, Helvetica, sans-serif;}
-        p    {color: #6e9bc8;
+        p    {color: #dfe9f3;
                 text-align: left;  
               float: center;
               font-family: Arial, Helvetica, sans-serif;}
@@ -20,6 +20,44 @@
             color: #6e9bc8;
               font-family: Arial, Helvetica, sans-serif;
 
+        }
+        .show-data {color: #f7fafd;  
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 0 auto;
+              width: 80%;
+              margin: auto;
+              padding: 5px;
+              outline: thick double #32a1ce;
+
+
+        }
+        .button {
+        padding: 5px;
+        width: 25%;
+        background: rgba(238, 238, 238, 0.738);
+        color: #555;
+        float: center;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .button:hover {
+        background-color: rgba(119, 207, 234, 0.597);
+        color: rgb(245, 244, 240);
+        
+        }
+        input {
+        margin: 0;
+        background: rgba(238, 238, 238, 0.825);
+        color: #555;
+        float: center;
+        font-size: 25px;
+        size: 50;
+        padding: 6px;
         }
     </style>
 </head>
@@ -31,7 +69,7 @@ var text1= $('#text1').val();
               type: "POST",
               data: {text1:text1}
           }).done(function(response) {
-            var html= "<br><br><br><p> <b> Search result: <br> (Results from lowest to highest price below) <b><p>";
+            var html= "<br><br> <b> Search result: <br> (Results from lowest to highest price below) <b>";
             response =response.result;
                  $.each(response,function(key,val){
                  console.log(val);
@@ -47,10 +85,11 @@ var text1= $('#text1').val();
         <h1 style="padding-top: 3%;">Lowest-price finder for electronics:</h1><br><br>
         <br>
         <div class="mainclass">
-            Which item would you like to search for? Please enter it here: <br><br><input type="text" id="text1" name="text1">
-            <button id="clicked" onclick="myFunction()">Submit</button> <br>
+            Which item would you like to search for? Please enter it here: <br><br><input type="text" id="text1" name="text1" size="50">
+            <button id="clicked" onclick="myFunction()" class="button">Submit</button> <br>
             <br>
-            (This process might take a few seconds... Thank you for your patience) 
+            This process might take a few seconds. Thank you for your patience. The top 10 search results will appear in the box below. <br><br>
+
         </div>
     <div class="show-data" style="text-align: left; float: left; padding-left: 3%; padding-right: 3%;">
     </div>
