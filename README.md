@@ -24,6 +24,8 @@ Now that I figured out how to do the backend web-scraping and filtering for the 
 
 One of the larger problems was when the JSON output would become scrambled and the text would appear as a giant wall of random characters. I've attached an image to show you what it was like.
 
+![image](https://user-images.githubusercontent.com/111328484/212561981-d95c166a-3ea5-4ee5-b427-29f2055d32da.png)
+
 
 To counteract this, I debugged and implemented a new integration of the Python server-side output through the JSON, which would output HTML in a cleaner fashion. The output would now look like this:
 
