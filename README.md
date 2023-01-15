@@ -31,3 +31,14 @@ To counteract this, I debugged and implemented a new integration of the Python s
 
 ![image](https://user-images.githubusercontent.com/111328484/212563812-d9d96155-bddc-464a-b778-32da66552220.png)
 
+### Further fixes and tasks for this project:
++ Add better CSS to make it more visually appealing
++ Next-word predictor for the search bar based on the user's previous
+
+
+
+### Legal Disclaimer:
+This project was made so that I could practice passing front-end user input to back-end processes and sending processed data out to the front end, as an HTML/CSS refresher and get some practice with sorting relatively small amounts of publicly availible data. Web scraping for publicly availible information is used widely by companies and developpers alike (evidence of this is all over the internet), though some say it is a legal gray area. However, I did not actually use this web-scraping program for for financial gain, I only used it for testing and learning purposes. Please engage in legal, responsible and ethical practices if you are consulting this repository, and I am not responsible for any consequences of anyone using this public repository or information gained from this public repository to commit cromes or copyright violations. For example, a site like Newegg uses various security measures to stop third-party bots and such from scraping their website for public data such as products and prices. Please don't try to circumvent these measures as they are protected by the site's terms of service (and maybe other documents).
+
+
+
