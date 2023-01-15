@@ -29,5 +29,5 @@ One of the larger problems was when the JSON output would become scrambled and t
 
 To counteract this, I debugged and implemented a new integration of the Python server-side output through the JSON, which would output HTML in a cleaner fashion. The output would now look like this:
 
-![image](https://user-images.githubusercontent.com/111328484/212562045-6cc7d1f4-57d6-42af-850a-efbc194e3862.png)
+![image](https://user-images.githubusercontent.com/111328484/212563812-d9d96155-bddc-464a-b778-32da66552220.png)
 
