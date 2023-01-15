@@ -7,7 +7,7 @@ This web application that allows a user to search for the lowest price of electr
 
 ### Features:
 + Search Bar for User's Desired Input
-+ Preselected 10 item list to output possible choices
++ Configured to output a 10-item list to display possible choices
 + List items contain Product name, Price, Link and Additional Information
 
 ### Process:
