@@ -5,6 +5,10 @@
 ### Description:
 This web application that allows a user to search for the lowest price of electronics online was made using Python, HTML5, CSS, Javascript, Flask, JSON. It uses a python back-end to parse and web-srape for a specfic key-word that the user inputs 
 
+![image](https://user-images.githubusercontent.com/111328484/212564684-33ef4d75-c209-4bab-9c21-67afbd3b3781.png)
+
+
+
 ### Features:
 + Search Bar for User's Desired Input
 + Configured to output a 10-item list to display possible choices
