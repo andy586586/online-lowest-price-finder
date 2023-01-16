@@ -53,7 +53,7 @@ def websearchfunc(sold_good): #function to webscrape and pass the final_result o
     #processing a dictionary:
     sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
 
-
+# this creates an array called out that can store all of these values
     out = []
     for item in sorted_items:
         item_name = str(item[0])
@@ -62,7 +62,7 @@ def websearchfunc(sold_good): #function to webscrape and pass the final_result o
         out.append(str(" Item: " + str(item_name) + "<br> Price: " + str(item_price) + "<br> Link: " + str(item_link) + " "))
 
  
-
+# now using this array we can make everything a string, and output all the strings joined together using spaces and line breaks
     first10OutString = map(str, out[:10])
     top_10="<br><br> ".join(first10OutString)
 
