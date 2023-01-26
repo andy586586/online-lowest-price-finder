@@ -15,7 +15,7 @@ This web application that allows a user to search for the lowest price of electr
 + List items contain Product name, Price, Link and Additional Information
 
 ### Process:
-I spent many hours tinkering with the concept of web-scraping before figuring out how to extract code from HTML and processing it in python. Many thanks to W3Schools, FreeCodeCamp.org, Programming with Mosh, Python Documentation and other youtubers/developpers for helping me understand how to use and understand Beautifulsoup, and other python syntax/algorithmic processes.
+I spent many hours tinkering with the concept of web-scraping before figuring out how to extract code from HTML and processing it in python. Many thanks to W3Schools, FreeCodeCamp.org,  and other youtubers/developpers for helping me understand how to use and understand Beautifulsoup, and other python syntax/algorithmic processes.
 
 Now that I figured out how to do the backend web-scraping and filtering for the desired product, I had to connect this output data to the front end HTML page.
 
