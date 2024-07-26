@@ -42,7 +42,7 @@ To counteract this, I debugged and implemented a new integration of the Python s
 
 
 ### Legal Disclaimer:
-This project was made so that I could practice passing front-end user input to back-end processes and sending processed data out to the front end, as an HTML/CSS refresher and get some practice with sorting relatively small amounts of publicly available data. Web scraping for publicly available information is used widely by companies and developpers alike (evidence of this is all over the internet). Please engage in legal, responsible and ethical practices if you are consulting this repository for inspiration.
+This project was made so that I could practice passing front-end user input to back-end processes and sending processed data out to the front end, as an HTML/CSS refresher and get some practice with sorting relatively small amounts of publicly available data. Web scraping for publicly available information is used widely by companies and developpers alike (evidence of this is all over the internet). I have not used this site for profit or any other reasons. Please engage in legal, responsible and ethical practices if you are consulting this repository for inspiration.
 
 
 
