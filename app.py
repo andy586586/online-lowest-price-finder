@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 def websearchfunc(sold_good): #function to webscrape and pass the final_result on to the @app.route
-    url = f"https://www.newegg.ca/p/pl?d={sold_good}&N=4131"
+    url = ""
     page = requests.get(url).text
     document = BeautifulSoup(page, "html.parser")
 
@@ -25,7 +25,7 @@ def websearchfunc(sold_good): #function to webscrape and pass the final_result o
 
     #loops through to get every page of the search result on the website
     for page in range(1, pages + 1):
-        url = f"https://www.newegg.ca/p/pl?d={sold_good}&N=4131&page={page}"
+        url = ""
         page = requests.get(url).text
         document = BeautifulSoup(page, "html.parser")
         
